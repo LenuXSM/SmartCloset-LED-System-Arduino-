@@ -1,0 +1,20 @@
++---------------------+
+|     Arduino Uno     |
++---------------------+
+| Pin 2 ------------- Reed switch sensor (other end to GND, 10kΩ resistor to 5V)
+| Pin 3 ------------- PIR motion sensor (signal)
+| Pin 4 (RX) --------- RX of Bluetooth module HC-05/HC-06
+| Pin 5 (TX) --------- TX of Bluetooth module HC-05/HC-06
+| Pin 6 ------------- On/Off button (other end to GND, 10kΩ resistor to 5V)
+| Pin 7 ------------- Color change button (other end to GND, 10kΩ resistor to 5V)
+| Pin 8 ------------- Brightness up button (other end to GND, 10kΩ resistor to 5V)
+| Pin 9 ------------- Gate of MOSFET transistor for red LED channel
+| Pin 10 ------------ Gate of MOSFET transistor for green LED channel
+| Pin 11 ------------ Gate of MOSFET transistor for blue LED channel
+| Pin 12 ------------ Brightness down button (other end to GND, 10kΩ resistor to 5V)
+| A0 ---------------- Middle pin of potentiometer (other pins to 5V and GND)
+| A4 (SDA) ----------- SDA of OLED display
+| A5 (SCL) ----------- SCL of OLED display
+| 5V ----------------- VCC of OLED display, VCC of Bluetooth module, VCC of PIR sensor, one end of potentiometer
+| GND ---------------- GND of all components
++---------------------+
